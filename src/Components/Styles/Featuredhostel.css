@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px; 
+    height: 90vh;
+    width: 1420px;
+   margin-left: 10%;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0; /* Set a background color for each item */
+    border-radius: 25px;
+    height: 340px;
+   width: 272px;
+  }
+ .maincardcss{
+    height: 340px;
+    width: 272px;
+    border-radius: 25px;
+    position: relative;
+ }
+.ftstcardcontent{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    line-height: 10px;
+    padding: 5px;
+    margin-left: 5%;
+    width: 100%;
+    color: white;
+    border-radius: 0 0 25px 25px;
+}

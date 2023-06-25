@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Featuredhostels from './Featuredhostels'
 import '../Styles/Home.css'
 import Carosal from './Carosal'
 export default function Home() {
@@ -18,6 +19,11 @@ export default function Home() {
         <div>
             <Carosal/>
         </div>
+        <br/>
+        <br/>
+        <br/>
+         <h2 className='ftdhostel'>FEATURED HOSTELS</h2>
+        <Featuredhostels/>
     </div>
   )
 }

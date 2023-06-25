@@ -7,7 +7,7 @@ return(
 <div>
     <nav className='Navbar'>
 
-    <li className='link-logo' class="nav-item">
+    <li className='Linklogo' class="nav-item">
     <Link    to="/" style={{ textDecoration: 'none'}} class="nav-link" aria-current="page" >SleepSafari</Link>
   </li>
 
