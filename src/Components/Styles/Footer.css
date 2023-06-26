@@ -1,0 +1,29 @@
+
+.footerst{
+     font-family: 'Poppins', sans-serif;
+     background-color: black;
+     color: white;
+}
+.logoft{
+    margin-left: 13%
+}
+.ftlinks{
+    display: flex;
+   margin-left: 10%;
+    gap: 15rem;
+   
+}
+.links1{
+ list-style: none;
+ color: white;
+ text-decoration: none;
+ line-height: 35px;
+ margin-left: 15%;
+}
+.headft{
+    margin-left: 70px;
+    color: yellow;
+}
+.navlinks{
+    text-align: initial;
+}
