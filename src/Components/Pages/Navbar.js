@@ -7,8 +7,14 @@ return(
 <div>
     <nav className='Navbar'>
 
-    <li className='linklogii' class="nav-item">
-    <Link    to="/" style={{ textDecoration: 'none'}} class="nav-link" aria-current="page" >SleepSafari</Link>
+    <li className='linkloi' class="nav-item"  style={{
+      listStyle:'none',
+      textDecoration: 'none',
+      padding:'5px',
+      marginLeft:'130px',
+      marginTop:"15px",
+      fontSize:'23px'}}  >
+    <Link   style={{ textDecoration: 'none' }}  to="/"  class="nav-link" aria-current="page" >SleepSafari</Link>
   </li>
 
         <ul className='LInks'>

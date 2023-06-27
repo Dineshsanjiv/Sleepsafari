@@ -4,14 +4,19 @@
     gap: 5rem;
     margin-left: 440PX;
     font-size: 22px;
+    font-family: 'Poppins', sans-serif;
    
 }
-.linklogii{
+/* .linklogii{
     list-style: none;
     padding: 5px;
     margin-left: 130px;
     margin-top: 15px;
     font-size: 23px;
+} */
+
+.linkloi{
+    list-style: none;
 }
 .link:hover{
     color: rgb(144, 100, 189);

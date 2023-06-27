@@ -4,6 +4,7 @@ import { Footer } from './Footer'
 import Featuredhostels from './Featuredhostels'
 import '../Styles/Home.css'
 import Carosal from './Carosal'
+import { Destinationhome } from './Destinationhome'
 import NEWSimg from '../Assets/newsltter.svg'
 import CheckInForm from './Checkin'
 export default function Home() {
@@ -32,7 +33,8 @@ export default function Home() {
         <Featuredhostels/>
 
         <br/>
-       
+       <Destinationhome/>
+       <br/>
 
        <div className='newsletter'>
         <img className='imgnews' src={NEWSimg} alt=''/>
