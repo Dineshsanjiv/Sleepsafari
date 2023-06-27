@@ -6,6 +6,7 @@
 }
 .paramember{
     line-height: 2rem;
+   
 }
 .btnmember{
     margin-left: 45%;
@@ -16,6 +17,14 @@
     width: 120px;
 }
 
+.btnmemberbooking{
+    border-color: rgba(255, 255, 255, 0.534);
+    box-shadow: 11px 12px 16px 0px rgba(0, 0, 0, 0.307);
+    background-color: yellow;
+    height: 43px;
+    width: 220px;
+    margin-left: 10%;
+}
 
 .grid-cotainer {
     display: grid;
@@ -28,9 +37,8 @@
   }
   
   .grid-iem {
-    /* flex-basis: 25%; Each item takes up 25% of the container's width */
     padding: 10px;
-    background-color:#ffffff; /* Set a background color for each item */
+    background-color:#ffffff; 
    
     width: 363px;
     height: 244px;
@@ -39,6 +47,9 @@
     
   }
 
+  .grid-iem:hover {
+    transform: scale(1.1); 
+  }
 
   .mainbenifits{
     width: 1912px;
@@ -85,13 +96,22 @@
 
  #gridbnn1h1{
     font-size: 18px;
-    width: 173px;
+    width: 197px;
     height: 26px;
     margin: 0px 127px 0px 31px;
     background-color: yellow;
     padding: 12px 8px;
     border-radius: 8px;
 
+ }
+ #gridbnbkout1h1{
+    font-size: 18px;
+    width: 167px;
+    height: 26px;
+    margin: 0px 127px 0px 31px;
+    background-color: yellow;
+    padding: 12px 8px;
+    border-radius: 8px;
  }
 .memberheadfirst{
     font-size: 45px;

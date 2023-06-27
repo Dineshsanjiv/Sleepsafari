@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
+import { Footer } from './Footer';
+import MembershipJoin from './Promember';
 import '../Styles/Membership.css'
 import bnimg from '../Assets/benifit1.svg'
 import bnimg1 from '../Assets/benifit2.svg'
@@ -26,7 +28,12 @@ export default function Membership() {
 
   return (
     <div className='mainmember'>
-      <div style={{ position: 'fixed', overflow: 'hidden' }}>
+      <div style={{ position: 'fixed', 
+      width:'100%',
+      overflow: 'hidden' ,
+      boxShadow:" 11px 12px 16px 0px rgba(0, 0, 0, 0.307)"
+      
+    }}>
         <Navbar />
       </div>
       <br></br>
@@ -48,8 +55,9 @@ export default function Membership() {
        <div className='paramember'>
         <p>
         Step up the way your travel and treat yourself to a membership in The Hosteller Commune, a remarkable VIP hostel membership program, designed to celebrate and reward your love for travel. Picture yourself embarking on thrilling adventures, immersing yourself in vibrant cultures, and creating unforgettable memories - all while reaping the benefits of this membership program. Enjoy experiences across our extensive network of 50+ award-winning backpacker hostels, Unbox Cafes, and remarkable trips from Step Out Co. Are you ready to unlock a world of extraordinary perks?
+        <br/>
 
-We go above and beyond to ensure your journey is nothing short of extraordinary. Begin your travel escapades by enjoying a seamless check-in experience, as we understand that sometimes the excitement of exploring a new destination can't wait. You'll have the privilege of early check-ins, effortlessly settling into your cosy abode without delay. And when it comes time to bid farewell to your temporary home, embrace the flexibility of late checkouts, granting you those precious extra hours to squeeze in a little more adventure or simply relish a few more moments of relaxation.
+We go above and beyond to ensure your journey is nothing short of extraordinary. Begin your travel escapades by enjoying a seamless check-in experience, as we understand that sometimes the excitement of exploring a new destination can't wait. You'll have the privilege of early check-ins, effortlessly settling into your cosy abode without delay. And when it comes time to bid farewell to your temporary home, embrace the flexibility of late checkouts, granting you those precious extra hours to squeeze in a little more adventure or simply relish a few more moments of relaxation.<br/>
 
 
 
@@ -58,11 +66,11 @@ We go above and beyond to ensure your journey is nothing short of extraordinary.
         {showMore ? (
           <>
             <p>
-            Fuel your wanderlust with a delectable start to your day, thanks to the exclusive F&B coupons that come exclusively with the membership. Imagine waking up to a tantalising spread of fresh toast, aromatic coffee, and a variety of hearty options, all designed to energise you for the exciting adventures ahead. It's our way of ensuring you embark on your travels with a full heart and a satisfied appetite.
+            Fuel your wanderlust with a delectable start to your day, thanks to the exclusive F&B coupons that come exclusively with the membership. Imagine waking up to a tantalising spread of fresh toast, aromatic coffee, and a variety of hearty options, all designed to energise you for the exciting adventures ahead. It's our way of ensuring you embark on your travels with a full heart and a satisfied appetite.<br/>
 
-We believe that little treats along the way adds that extra sparkle to your journey. With The Hosteller Membership, expect to be showered with guaranteed discounts, ensuring that you not only create cherished memories but also save money to splurge on souvenirs or those delightful local delicacies. Whether it's discounted room rates, exclusive access to our exciting Step Out Co. experiences, or wallet-friendly deals at our Unbox Cafes, with this hostel membership program we're committed to making your travel dreams more attainable and your wallet happier.
+We believe that little treats along the way adds that extra sparkle to your journey. With The Hosteller Membership, expect to be showered with guaranteed discounts, ensuring that you not only create cherished memories but also save money to splurge on souvenirs or those delightful local delicacies. Whether it's discounted room rates, exclusive access to our exciting Step Out Co. experiences, or wallet-friendly deals at our Unbox Cafes, with this hostel membership program we're committed to making your travel dreams more attainable and your wallet happier.<br/>
 
-But wait, there's more! As a member, you become part of a vibrant community of like-minded travel enthusiasts. Imagine sharing tales of adventure with fellow travellers, sharing tips and insider secrets, and creating lifelong friendships. The Hosteller Membership is not just about exclusive benefits; it's about belonging to a community of travellers who understand your passion for adventures.
+But wait, there's more! As a member, you become part of a vibrant community of like-minded travel enthusiasts. Imagine sharing tales of adventure with fellow travellers, sharing tips and insider secrets, and creating lifelong friendships. The Hosteller Membership is not just about exclusive benefits; it's about belonging to a community of travellers who understand your passion for adventures.<br/>
 
 So, why wait? Take the leap and reward yourself with The Hosteller Membership. Allow us to elevate your travel experiences, sprinkle your journey with extra magic, and unleash a world of exclusive perks. Adventure awaits, and we can't wait to embark on this thrilling journey with you!
 
@@ -82,7 +90,7 @@ So, why wait? Take the leap and reward yourself with The Hosteller Membership. A
 <br/>
 <br/>
 <br/>
-
+<button className='btnmemberbooking'>Become a Member</button>
      <div className='mainbenifits'>
       <div className='headingbenifits'>
 <h1 className='h1benifit'>Exclusive Benefits</h1>
@@ -201,7 +209,7 @@ So, why wait? Take the leap and reward yourself with The Hosteller Membership. A
         <br/>
       
         <div className="grid-cntent">
-          <h3 id='gridbn1h1'>No Blackout Dates</h3>
+          <h3 id='gridbnbkout1h1'>No Blackout Dates</h3>
           <p id='gridbn1p1'>Books hostels anytime, anywhere for anyone easily  </p>
         </div>
 
@@ -212,8 +220,19 @@ So, why wait? Take the leap and reward yourself with The Hosteller Membership. A
 
 
      </div>
-
-
+<br/>
+<br/>
+<div>
+  <MembershipJoin/>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+    
+    <div>
+    <Footer/>
+    </div>
 
 
 
