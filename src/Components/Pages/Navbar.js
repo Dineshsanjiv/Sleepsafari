@@ -7,9 +7,16 @@ return(
 <div>
     <nav className='Navbar'>
 
-    <li className='linklogii' class="nav-item">
-    <Link    to="/" style={{ textDecoration: 'none'}} class="nav-link" aria-current="page" >SleepSafari</Link>
-  </li>
+    <li className='linklogii' class="nav-item" style={{listStyle:"none", marginTop:"12px"}}>
+    <Link    to="/" style={{ textDecoration: 'none',     
+                              alignItems: "center",
+                              alignContent: "center",
+                              fontFamily: "cursive",
+                              fontSize: "xx-large",
+                              marginLeft:"20px"
+                            }} 
+                  className='logo-sleep' class="nav-link" aria-current="page" >SleepSafari</Link>
+    </li>
 
         <ul className='LInks'>
         <li className='link' class="nav-item">
