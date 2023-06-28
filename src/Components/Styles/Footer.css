@@ -5,7 +5,12 @@
      color: white;
 }
 .logoft{
-    margin-left: 13%
+    margin-left: 13%;
+    height:80px;
+   
+}
+.footlogo{
+    margin-top: -0.01%;
 }
 .ftlinks{
     display: flex;

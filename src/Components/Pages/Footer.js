@@ -7,7 +7,8 @@ export const Footer = () => {
     <div className='footerst'>
 
     <div className='logoft'>
-        <h2>SLEEPSAFARI</h2>
+        <br/>
+        <h2 className='footlogo'>SLEEPSAFARI</h2>
     </div>
 <hr></hr>
 <div className='ftlinks'>

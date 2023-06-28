@@ -1,0 +1,134 @@
+.membership{
+   margin-left: 10%;
+   margin-right: 10%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.paramember{
+    line-height: 2rem;
+   
+}
+.btnmember{
+    margin-left: 45%;
+    border-color: rgba(255, 255, 255, 0.534);
+    box-shadow: 11px 12px 16px 0px rgba(0, 0, 0, 0.307);
+    background-color: yellow;
+    height: 33px;
+    width: 120px;
+}
+
+.btnmemberbooking{
+    border-color: rgba(255, 255, 255, 0.534);
+    box-shadow: 11px 12px 16px 0px rgba(0, 0, 0, 0.307);
+    background-color: yellow;
+    height: 43px;
+    width: 220px;
+    margin-left: 10%;
+}
+
+.grid-cotainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 22px;
+    
+  }
+  
+  .grid-iem {
+    padding: 10px;
+    background-color:#ffffff; 
+   
+    width: 363px;
+    height: 244px;
+    border-radius: 25px;
+    box-shadow: 11px 12px 16px 0px rgba(0, 0, 0, 0.307);
+    
+  }
+
+  .grid-iem:hover {
+    transform: scale(1.1); 
+  }
+
+  .mainbenifits{
+    width: 1912px;
+    height: 770px;
+    background-color: #FFFACA;
+  }
+  .headingbenifits{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .h1benifit{
+    font-size: 48px;
+  }
+  .pbenifit{
+    font-size: 18px;
+    color: #919191;
+    font-family: sans-serif;
+  }
+
+ 
+ .gridimag{
+    width: 96px;
+    height: 80px;
+    margin: 0 0 0 235px;
+ }
+
+
+ #gridbn1h1{
+    font-size: 18px;
+    width: 143px;
+    height: 26px;
+    margin: 0px 127px 0px 31px;
+    background-color: yellow;
+    padding: 12px 8px;
+    border-radius: 8px;
+
+ }
+ #gridbn1p1{
+    margin: 16px 50px 0px 31px;
+    font-size: 17px;
+    font-family: sans-serif;
+ }
+
+ #gridbnn1h1{
+    font-size: 18px;
+    width: 197px;
+    height: 26px;
+    margin: 0px 127px 0px 31px;
+    background-color: yellow;
+    padding: 12px 8px;
+    border-radius: 8px;
+
+ }
+ #gridbnbkout1h1{
+    font-size: 18px;
+    width: 167px;
+    height: 26px;
+    margin: 0px 127px 0px 31px;
+    background-color: yellow;
+    padding: 12px 8px;
+    border-radius: 8px;
+ }
+.memberheadfirst{
+    font-size: 45px;
+    position: relative;
+  z-index: 2;
+    
+}
+.headontainer{
+    position: relative;
+}
+
+.backround {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 620px;
+    height: 43%;
+    background-color: yellow;
+    z-index: 1;
+  }
