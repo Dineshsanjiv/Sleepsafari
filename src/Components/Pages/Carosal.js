@@ -9,7 +9,7 @@ class Carosal extends React.Component {
       const settings = {
         // dots: true, // Show navigation dots
         infinite: true, // Enable infinite loop
-        speed: 500, // Transition speed in milliseconds
+        speed: 2000, // Transition speed in milliseconds
         slidesToShow: 1, // Number of slides to show at a time
         slidesToScroll: 1, // Number of slides to scroll at a time
         autoplay: true, // Enable auto-sliding

@@ -54,6 +54,18 @@ import '../Styles/Navbar.css';
 function Navbar() {
   const location = useLocation();
 
+<<<<<<< HEAD
+    <li className='linklogii' class="nav-item" style={{listStyle:"none", marginTop:"12px"}}>
+    <Link    to="/" style={{ textDecoration: 'none',     
+                              alignItems: "center",
+                              alignContent: "center",
+                              fontFamily: "cursive",
+                              fontSize: "xx-large",
+                              marginLeft:"20px"
+                            }} 
+                  className='logo-sleep' class="nav-link" aria-current="page" >SleepSafari</Link>
+    </li>
+=======
   return (
     <div>
       <nav className="Navbar">
@@ -70,6 +82,7 @@ function Navbar() {
             SleepSafari
           </Link>
         </li>
+>>>>>>> b40217b1aee5d6a69a0d990919e8446a242a0e5f
 
         <ul className="Links">
           <li  class="nav-item" className="link">
