@@ -57,21 +57,17 @@ function Navbar() {
   return (
     <div>
       <nav className="Navbar">
+
+        
         <li   class="nav-item" className="linkloi"
         
-        style={{ listStyle: 'none', 
-        
-        padding: '5px',
-        textDecoration: 'none',
-         marginLeft: '130px',
-          marginTop: '15px',
-           fontSize: '23px'     }}    >
+            >
           <Link to="/"   style={{ textDecoration: 'none' }}   className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}   class="nav-item"   >
             SleepSafari
           </Link>
         </li>
-
-        <ul className="Links">
+         <div className='Linksss' > 
+        <ul className="links">
           <li  class="nav-item" className="link">
             <Link to="/destinations"  style={{ textDecoration: 'none' }}  class="nav-link" className={`nav-link ${location.pathname === '/destinations' ? 'active' : ''}`}>
               Destinations
@@ -98,6 +94,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        </div>
       </nav>
     </div>
   );

@@ -21,8 +21,8 @@ export default function Featuredhostels() {
       <div className="grid-item">
      <div className='maincardcss'>
          <div style={{
-             height: '100%',
-             width: '100%',
+             height: '340px',
+             width: '272px',
              borderRadius: '25px',
         backgroundImage: `url(${bg1})`,
         backgroundSize: 'cover',

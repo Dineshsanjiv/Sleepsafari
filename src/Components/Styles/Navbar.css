@@ -1,4 +1,4 @@
-.Links{
+.links{
     display: flex;
     list-style: none;
     gap: 5rem;
@@ -34,13 +34,7 @@
   
 
 
-/* .linklogii{
-    list-style: none;
-    padding: 5px;
-    margin-left: 130px;
-    margin-top: 15px;
-    font-size: 23px;
-} */
+
 
 .linkloi{
     list-style: none;
@@ -58,4 +52,29 @@
 }
 .link{
     color: rgb(157, 157, 240);
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  
+  .Navbar {
+      /* Update CSS rules for mobile devices here */
+      height: 60px;
+  }
+  
+  .linkloi{
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .Linksss{
+    margin-left: -100px;
+    margin-top: 10px;
+  }
+.links {
+      /* Update CSS rules for mobile devices here */
+      margin-left: -15px;
+      gap: 0rem;
+      font-size: 16px;
+  }
 }

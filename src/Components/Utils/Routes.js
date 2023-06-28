@@ -15,7 +15,7 @@ function Routesmain (){
     
         <Routes>
             <Route exact path="/" Component={Home}/>
-            <Route exact path="/destinatins" Component={Destinations}/>
+            <Route exact path="/destinations" Component={Destinations}/>
             <Route exact path="/hostels" Component={Hostels}/>
             <Route exact path="/workations" Component={Workations}/>
             <Route exact path="/membership" Component={Membership}/>

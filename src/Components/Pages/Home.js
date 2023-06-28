@@ -4,7 +4,7 @@ import { Footer } from './Footer'
 import Featuredhostels from './Featuredhostels'
 import '../Styles/Home.css'
 import Carosal from './Carosal'
-import { Destinationhome } from './Destinationhome'
+// import { Destinationhome } from './Destinationhome'
 import NEWSimg from '../Assets/newsltter.svg'
 import CheckInForm from './Checkin'
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
         <Featuredhostels/>
 
         <br/>
-       <Destinationhome/>
+       {/* <Destinationhome/> */}
        <br/>
 
        <div className='newsletter'>
