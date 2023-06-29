@@ -50,31 +50,10 @@
     display: flex;
    
 }
+>>>>>>> b40217b1aee5d6a69a0d990919e8446a242a0e5f
 .link{
     color: rgb(157, 157, 240);
 }
-
-
-/* Mobile Devices */
-@media only screen and (max-width: 767px) {
-  
-  .Navbar {
-      /* Update CSS rules for mobile devices here */
-      height: 60px;
-  }
-  
-  .linkloi{
-    margin-left: 0px;
-    font-size: 20px;
-  }
-  .Linksss{
-    margin-left: -100px;
-    margin-top: 10px;
-  }
-.links {
-      /* Update CSS rules for mobile devices here */
-      margin-left: -15px;
-      gap: 0rem;
-      font-size: 16px;
-  }
+.logo-sleep{
+    list-style: none !important;
 }
