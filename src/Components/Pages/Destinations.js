@@ -1,10 +1,26 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Mobilenav from './Mobilenav'
+import Mainnav from './Mainnav'
 export default function Destinations() {
   return (
     <div>
       <Navbar/>
-        <h1>gfj</h1>
+      
+
+<br/>
+<br/>
+
+<Mainnav/>
+
+
+
+
+
+
+      
+
+
     </div>
   )
 }

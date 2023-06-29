@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Mainnav from './Mainnav';
 import '../Styles/Workation.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFlag } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,7 @@ import img2 from '../Assets/img2.webp';
 export default function Workations() {
   return (
     <><div >
-       <Navbar /> 
+       <Mainnav /> 
     </div>
     <div>
       <p className='secondary-nav'>Book for 7 nights or more to avail the workation discount <FontAwesomeIcon icon={faFlag} /></p>

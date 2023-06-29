@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
+
+import Mainnav from './Mainnav'
 import { Footer } from './Footer'
 import Featuredhostels from './Featuredhostels'
 import '../Styles/Home.css'
@@ -10,11 +11,11 @@ import CheckInForm from './Checkin'
 export default function Home() {
   return (
     <div>
-        <Navbar/>
+        <Mainnav/>
         <br/>
         <br/>
         <div className='stbar'>
-            <h1 className='h1bar'> The SleepSafari commune membership program is now online</h1>
+            <h2 className='h1bar'> The SleepSafari commune membership program is now online</h2>
             <button className='btn1member'>Explore</button>
         </div>
         <br/>

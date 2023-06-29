@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar';
+import Mainnav from './Mainnav';
 import { Footer } from './Footer';
 import MembershipJoin from './Promember';
 import '../Styles/Membership.css'
@@ -34,7 +34,7 @@ export default function Membership() {
       boxShadow:" 11px 12px 16px 0px rgba(0, 0, 0, 0.307)"
       
     }}>
-        <Navbar />
+        <Mainnav />
       </div>
       <br></br>
       <br></br>

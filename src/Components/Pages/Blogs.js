@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Mainnav from './Mainnav'
 export default function Blogs() {
   return (
     <div>
-      <Navbar/>
+      <Mainnav/>
         <h1>gfj</h1>
     </div>
   )

@@ -6,10 +6,11 @@
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
     z-index: 999;
+    margin-top: 10px;
     
 }
 
-
+  
 
 .nav-link {
     text-decoration: none;
@@ -36,9 +37,12 @@
 
 
 
-.linkloi{
+/* .linkloi{
     list-style: none;
-}
+   
+    font-size: 35px;
+    margin-left: 30px;
+} */
 .link:hover{
     color: rgb(144, 100, 189);
 }
@@ -50,10 +54,34 @@
     display: flex;
    
 }
->>>>>>> b40217b1aee5d6a69a0d990919e8446a242a0e5f
+
 .link{
     color: rgb(157, 157, 240);
 }
-.logo-sleep{
-    list-style: none !important;
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .links {
+      /* Update CSS rules for mobile devices here */
+      margin-left: -160px;
+      display:-ms-grid;
+      margin-top: 30px;
+      gap: 6px;
+      font-size: 16px;
+  }
+
+  .linkloi{
+  font-size: 20px;
+  margin-top: 10px;
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+
+  .Navbar {
+      /* Update CSS rules for mobile devices here */
+      height: 80px;
+  }
 }

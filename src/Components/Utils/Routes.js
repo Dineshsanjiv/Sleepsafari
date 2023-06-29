@@ -8,6 +8,7 @@ import Destinations from "../Pages/Destinations";
 import Blogs from "../Pages/Blogs";
 import Home from "../Pages/Home";
 import Membership from "../Pages/Membership";
+import { Agra } from "../Pages/Agra";
 function Routesmain (){
     return(
 <div>
@@ -20,6 +21,8 @@ function Routesmain (){
             <Route exact path="/workations" Component={Workations}/>
             <Route exact path="/membership" Component={Membership}/>
             <Route exact path="/blogs" Component={Blogs}/>
+            <Route exact path="/hostels/agra" Component={Agra}/>
+
         </Routes>
     
     
