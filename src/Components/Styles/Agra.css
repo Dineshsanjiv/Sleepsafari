@@ -1,3 +1,4 @@
+
 .offerpic1{
     width: 101%;
     height:fit-contet;
@@ -155,3 +156,111 @@
       .listsylefaq{
         margin-bottom: 15px;
       }
+      .reviewheading{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+       
+      }
+      .review-container{
+        display:grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        
+      }
+      .reviewdiv{
+       
+        margin-left: 13%;
+        margin-right: 13%;
+      }
+      .review-column{
+        background-color: white;
+        padding: 20px;
+        width: 446px;
+        height: 346px;
+        margin-top: -25%;
+        border-radius: 20px;
+        box-shadow: 23px -19px 15px 0px rgba(0,0,0,0.1);;
+      }
+      .avtarpic{
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+      }
+      .reviewbox{
+        margin-top: 10px;
+        display:flex;
+      }
+      .reviewparas{
+        margin-top: 15px;
+margin-left: 10px;
+line-height: 10px;
+  
+      }
+
+      .paragroup{
+        color: #919191;
+      }
+
+.reviewparaa{
+    margin-top: 20px;
+    color: #919191;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.bgyellow{
+    background-color: yellow;
+    height: 30vh;
+    
+   
+}
+.headerreview{
+    display: flex;
+    gap:35rem;
+    margin-left:13%;
+}
+.reviewarc{
+    display: flex;
+}
+.arc-container {
+    width: 150px;
+    height: 75px;
+    position: relative;
+  }
+  
+  .arc {
+    width: 80%;
+    height: 80%;
+    background-color: yellow;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(0deg);
+  }
+  
+  .content {
+    font-size: 18px;
+    color: #333;
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+   
+    transform: rotate(0deg);
+  }
+  .parareviews{
+    margin-left: -37px;
+
+  }
+  .round{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50% 50% 50% 50%;
+  }
+  .roundflex{
+    gap: 20px;
+    display:flex;
+  }

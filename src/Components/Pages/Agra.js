@@ -27,6 +27,10 @@ import agra2 from '../Assets/agra/agra2.svg'
 import agra3 from '../Assets/agra/agra3.svg'
 import agra4 from '../Assets/agra/agra4.svg'
 
+import avatar from '../Assets/Policies/reviewpic1.svg'
+import avatar1 from '../Assets/Policies/review2.svg'
+import avatar2 from '../Assets/Policies/review3.svg'
+
 export const Agra = () => {
 
 
@@ -40,8 +44,7 @@ export const Agra = () => {
     setShowMore(false);
   };
 
-
-
+ 
 
   return (
     <div>
@@ -223,6 +226,130 @@ A special secret awaits at our hostel. Wanna know what? Head over to the huge op
 <br/>
 <br/>
 </div>
+
+
+
+<div className='headerreview'>
+  <div>
+    
+    <p className='reviewheading'>WHAT OTHERS SAY</p> 
+    
+<div className='roundflex' >
+  <div className='round'></div>
+  <div className='round'></div>
+  <div className='round'></div>
+  <div className='round'></div>
+  <div className='round'></div>
+  <div>
+    <p> 220 Reviews</p>
+  
+  </div>
+</div>
+</div>
+ 
+
+<div className='reviewarc'>
+
+<div className="arc-container">
+<div className="arc">
+        <div className="content"><b>5 </b></div><br/>
+        <div ><br/><br/><b><p className='parareviews'> LOCATION </p></b></div>
+      </div>
+    </div>
+    <div className="arc-container">
+<div className="arc">
+        <div className="content"><b>5 </b></div><br/>
+        <div ><br/><br/><b><p className='parareviews'> LOCATION </p></b></div>
+      </div>
+    </div>
+
+    <div className="arc-container">
+      <div className="arc">
+        <div className="content"> <b>4.7</b> </div>
+        <div ><br/><br/><b><p className='parareviews'> AMBIENCE </p></b></div>
+      </div>
+      
+    </div>
+
+    <div className="arc-container">
+<div className="arc">
+        <div className="content"><b>5 </b></div><br/>
+        <div ><br/><br/><b><p className='parareviews'> LOCATION </p></b></div>
+      </div>
+    </div>
+
+</div>
+
+
+  </div>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<div className='bgyellow'>
+      
+
+ <div className='reviewdiv'>
+ 
+
+      <div className="review-container">
+        <div className="review-column">
+          
+          <div className='reviewbox'>
+            <img className='avtarpic' src={avatar} alt='hg' />
+            <div className='reviewparas'>
+              <p><b>Kavya</b></p>
+              <p className='paragroup' >SOLO</p>
+              </div>
+
+          </div>
+       
+          <p className='reviewparaa'>For solo travellers, The SleepSafari Agra was a good experience and had a great vibe. The service of rooms, hosts,and food was awesome. Hop[e to stay longer next time in The sleep Safari Agra</p>
+          </div>
+        <div className="review-column">
+          
+        <div className='reviewbox'>
+            <img className='avtarpic' src={avatar1} alt='hg' />
+            <div className='reviewparas'>
+              <p><b>Dinesh</b></p>
+              <p className='paragroup' >Group</p>
+              </div>
+
+          </div>
+       
+          <p className='reviewparaa'>Really a great place to stay. Helpful and really humble staff, great location,and really clean and calm environment. I enjoyed a lot in there. 10/10 for all services</p>
+  
+          
+          </div>
+        <div className="review-column">
+          
+        <div className='reviewbox'>
+            <img className='avtarpic' src={avatar2} alt='hg' />
+            <div className='reviewparas'>
+              <p><b>Imram Khan</b></p>
+              <p className='paragroup' >SOLO</p>
+              </div>
+
+          </div>
+       
+          <p className='reviewparaa'>Affordable prices,nearby location of te Taj Mahal. Great terrace ambience. As a traveller, perfect stay optiion. If you are planning to visit Agra then I would say kahiin mat jao seedha SlepSafari jao</p>
+          
+          </div>
+      </div>
+    </div>
+
+
+
+  </div>
+<br/>
+<br/>
+<br/>
+
          <Footer/>
   </div>
   )

@@ -91,7 +91,7 @@
 
 
 
-  @media only screen and (min-width:770px) {
+  @media only screen and (min-width:770px)  {
     .grid-hostel-container {
         display:-ms-flexbox;
         grid-template-columns: repeat(4, 1fr);
@@ -108,7 +108,7 @@
         
      }
      .pic1{
-       width: 101%;
+       width: 2150px;
        height:fit-content;
      }
       .hostelcardcontent{

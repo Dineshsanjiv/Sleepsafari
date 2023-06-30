@@ -30,7 +30,7 @@
 }
 .ftdhostel{
     font-family: 'Poppins', sans-serif;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .imgnews{
@@ -40,7 +40,7 @@
 }
 .newsletter{
     display: flex;
-    margin-left: 10%;
+    margin-left: 15%;
     width: 1420px;
     height: 370px;
     background-color:#f9e1e1dc;

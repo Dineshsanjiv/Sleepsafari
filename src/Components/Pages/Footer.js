@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/Footer.css'
-
+import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa';
 export const Footer = () => {
   return (
     <div className='footerst'>
@@ -9,6 +9,14 @@ export const Footer = () => {
     <div className='logoft'>
         <br/>
         <h2 className='footlogo'>SLEEPSAFARI</h2>
+       
+        <div className='linksfootinsta'>
+      <FaInstagram style={{ marginRight: '13px', width:'30px',height:'30px' }} />
+      <FaFacebook style={{ marginRight: '13px' , width:'30px',height:'30px'  }} />
+      <FaLinkedin style={{ marginRight: '13px' , width:'30px',height:'30px'  }} />
+      <FaYoutube  style={{ marginRight: '13px' , width:'30px',height:'30px'  }}/>
+    </div>
+           
     </div>
 <hr></hr>
 <div className='ftlinks'>

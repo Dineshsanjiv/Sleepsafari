@@ -7,10 +7,13 @@
 .logoft{
     margin-left: 13%;
     height:80px;
+    display: flex;
+    gap: 9;
    
 }
 .footlogo{
-    margin-top: -0.01%;
+    margin-right: 60%;
+    margin-top: 29px;
 }
 .ftlinks{
     display: flex;
@@ -31,4 +34,9 @@
 }
 .navlinks{
     text-align: initial;
+}
+.linksfootinsta{
+    margin-top: 29px;
+   
+    gap: 2rem;
 }

@@ -208,7 +208,7 @@ function Accordion() {
       </div>
       <br/>
       <div className="accordion-item">
-        <h2 className="accordion-header" id="flush-headingThree">
+        <h2 className="accordion-header" id="flush-headingFour">
           <button
              id="buttonfour"
             className={`accordion-button collapsed ${activeButton === 'buttonfour' ? 'active' : ''}`}
@@ -349,6 +349,7 @@ Yes, power backup is available.    </li>
             </div>
             </div>
           </div>
+          <hr/>
         </div>
       </div>
 
